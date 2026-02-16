@@ -1,0 +1,108 @@
+.create-account-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-account-card {
+  background: white;
+  width: 420px;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.create-account-card h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.create-account-card label {
+  font-weight: 600;
+  margin-top: 15px;
+  display: block;
+}
+
+.create-account-card input,
+.create-account-card select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.create-account-card button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background: #0f2027;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-account-card button:hover {
+  background: #203a43;
+}
+
+.error {
+  background: #ffe6e6;
+  color: #a40000;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.back-link {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  cursor: pointer;
+  color: #203a43;
+  font-size: 14px;
+}
+
+.account-output {
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #dbe6ec;
+  background: #f7fbfd;
+}
+
+.account-output h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #0f2027;
+}
+
+.account-output p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #1f2f3a;
+}
+
+.account-page-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0f2027;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.account-page-link:hover {
+  text-decoration: underline;
+}

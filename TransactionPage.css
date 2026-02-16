@@ -1,0 +1,177 @@
+.transaction-page {
+  max-width: 760px;
+  margin: 28px auto 40px;
+  padding: 0 16px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.transaction-page h2 {
+  text-align: center;
+  color: #1a3270;
+}
+
+.error-message {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.account-picker,
+.selected-account-meta,
+.action-card,
+.history-card {
+  background: #ffffff;
+  border: 1px solid #d9e6ff;
+  border-radius: 14px;
+  box-shadow: 0 10px 20px rgba(30, 64, 175, 0.1);
+}
+
+.account-picker {
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.account-picker label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.account-picker select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c8d8ff;
+  border-radius: 8px;
+}
+
+.selected-account-meta {
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+
+.selected-account-meta p {
+  margin: 4px 0;
+}
+
+.balance-card {
+  color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 14px;
+  background: linear-gradient(145deg, #1f4db5 0%, #2b78de 50%, #7a2de2 100%);
+  box-shadow: 0 16px 30px rgba(49, 46, 129, 0.28);
+}
+
+.balance-card h1 {
+  margin-top: 8px;
+  font-size: 34px;
+}
+
+.balance-card small {
+  color: #e8edff;
+}
+
+.action-card {
+  padding: 20px;
+  margin-bottom: 14px;
+}
+
+.action-card input,
+.action-card select {
+  width: 100%;
+  padding: 11px;
+  border-radius: 8px;
+  border: 1px solid #c8d8ff;
+  margin-bottom: 12px;
+}
+
+.action-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #1c3262;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 11px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #1f8d43, #3ab95b);
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button.withdraw {
+  background: #ffffff;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+.transfer-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #1a3471;
+}
+
+.history-card {
+  padding: 18px;
+}
+
+.history-card h3 {
+  margin-bottom: 12px;
+}
+
+.history-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history-card li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e7eeff;
+}
+
+.history-card small {
+  font-size: 11px;
+  color: #64748b;
+}
+
+.deposit {
+  color: #15803d;
+  font-weight: 600;
+}
+
+.withdraw {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.empty {
+  text-align: center;
+  color: #64748b;
+}
+
+.back-to-accounts-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: #1b3a79;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-to-accounts-link:hover {
+  text-decoration: underline;
+}
