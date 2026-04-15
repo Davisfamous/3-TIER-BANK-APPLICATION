@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="20260328-2-budgetnote-expand-columns" author="codex">
+        <modifyDataType tableName="budget_note" columnName="note" newDataType="VARCHAR(4000)"/>
+        <modifyDataType tableName="budget_note" columnName="ai_suggestion" newDataType="VARCHAR(4000)"/>
+    </changeSet>
+</databaseChangeLog>
