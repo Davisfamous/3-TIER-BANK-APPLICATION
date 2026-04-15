@@ -1,0 +1,95 @@
+.benefits-page {
+  max-width: 940px;
+  margin: 34px auto 44px;
+  padding: 0 20px;
+  font-family: "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 10% 8%, #fff2b8 0, transparent 30%),
+    radial-gradient(circle at 92% 18%, #c4f3ff 0, transparent 28%),
+    linear-gradient(145deg, #fffdf6 0%, #f5fbff 55%, #f7f2ff 100%);
+  border-radius: 20px;
+}
+
+.benefits-banner {
+  background: linear-gradient(130deg, #ffdf8e 0%, #ffd6d9 45%, #d9c8ff 100%);
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 24px;
+  box-shadow: 0 16px 28px rgba(109, 40, 217, 0.2);
+}
+
+.benefits-banner h2 {
+  margin: 0 0 10px;
+  color: #4c1d95;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.benefits-banner p {
+  margin: 0;
+  color: #5b2a86;
+  line-height: 1.65;
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 18px;
+}
+
+.benefit-row {
+  background: #ffffff;
+  padding: 18px 20px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 7px solid #7c3aed;
+  box-shadow: 0 10px 22px rgba(76, 29, 149, 0.16);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.benefit-row:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(76, 29, 149, 0.23);
+}
+
+.benefit-row h4 {
+  margin: 0;
+  color: #312e81;
+}
+
+.benefit-row p {
+  margin: 6px 0 0;
+  color: #5b6283;
+}
+
+.badge {
+  min-width: 122px;
+  text-align: center;
+  padding: 9px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.badge.eligible {
+  background: linear-gradient(140deg, #bbf7d0, #6ee7b7);
+  color: #14532d;
+  border: 1px solid #34d399;
+}
+
+.badge.not-eligible {
+  background: linear-gradient(140deg, #fecdd3, #fda4af);
+  color: #7f1d1d;
+  border: 1px solid #fb7185;
+}
+
+@media (max-width: 720px) {
+  .benefit-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

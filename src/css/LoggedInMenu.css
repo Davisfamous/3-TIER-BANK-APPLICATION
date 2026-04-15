@@ -1,0 +1,39 @@
+.loggedin-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccdfff;
+  border-radius: 12px;
+  background: linear-gradient(120deg, #ffffff 0%, #eef5ff 100%);
+  box-shadow: 0 10px 16px rgba(30, 64, 175, 0.08);
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #173365;
+  border: 1px solid #d2e0ff;
+  border-radius: 9px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.menu-link.active {
+  background: linear-gradient(130deg, #1f4db5 0%, #6d28d9 100%);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.menu-logout-btn {
+  margin-left: auto;
+  border: 1px solid #fda4af;
+  background: #fff1f2;
+  color: #9f1239;
+  border-radius: 9px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
