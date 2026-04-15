@@ -1,0 +1,204 @@
+.dashboard {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 34px 24px 48px;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+  color: #10203a;
+  background:
+    radial-gradient(circle at 12% 8%, #fff3bf 0, transparent 30%),
+    radial-gradient(circle at 92% 22%, #c9f0ff 0, transparent 26%),
+    linear-gradient(140deg, #f6fbff 0%, #eef4ff 45%, #f4f0ff 100%);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.brand {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #0f172a;
+}
+
+.greeting {
+  font-weight: 600;
+  color: #1f2d4f;
+}
+
+.home-btn {
+  text-decoration: none;
+  color: #0f172a;
+  background: #ffffff;
+  border: 1px solid #dbe6ff;
+  border-radius: 10px;
+  padding: 9px 14px;
+}
+
+.ads-slider {
+  margin-bottom: 20px;
+  border-radius: 16px;
+  padding: 22px 24px;
+  color: #07213f;
+  border: 1px solid #b2ddff;
+  background: linear-gradient(125deg, #d8efff 0%, #c3ddff 50%, #d6ccff 100%);
+  box-shadow: 0 12px 24px rgba(30, 64, 175, 0.12);
+}
+
+.ads-slider h3 {
+  margin: 0 0 8px;
+}
+
+.ads-slider p {
+  margin: 0 0 8px;
+}
+
+.balance-card {
+  margin-bottom: 24px;
+  border-radius: 16px;
+  padding: 26px;
+  color: #ffffff;
+  border: 1px solid #7c9cff;
+  background: linear-gradient(140deg, #2346b4 0%, #2f66db 55%, #7a2ee6 100%);
+  box-shadow: 0 16px 28px rgba(49, 46, 129, 0.28);
+}
+
+.balance-card p,
+.balance-card small {
+  color: #e8eeff;
+}
+
+.balance-card h1 {
+  margin: 6px 0 0;
+  font-size: 40px;
+}
+
+.balance-card .balance-error {
+  color: #ffd7d7;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.action {
+  border-radius: 14px;
+  padding: 18px 10px;
+  text-align: center;
+  border: 1px solid #d7e1ff;
+  text-decoration: none;
+  color: #13213f;
+  background: #ffffff;
+  box-shadow: 0 10px 18px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.action:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 26px rgba(30, 64, 175, 0.14);
+}
+
+.action span {
+  display: block;
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.action-icon {
+  line-height: 1;
+}
+
+.action p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.transfer-link-row {
+  margin-top: 14px;
+}
+
+.open-transactions-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #143061;
+  border: 1px solid #c8d6ff;
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: #ffffff;
+}
+
+.info-grid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.info-card {
+  border-radius: 14px;
+  padding: 18px;
+  border: 1px solid #dce6ff;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.06);
+}
+
+.info-card p {
+  margin: 0;
+  color: #5b6b8b;
+}
+
+.info-card h4 {
+  margin: 10px 0 0;
+  color: #112245;
+}
+
+.activity-card,
+.support-card {
+  margin-top: 20px;
+  border-radius: 16px;
+  padding: 22px;
+  border: 1px solid #dce6ff;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.06);
+}
+
+.activity-card ul {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+
+.support-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.support-actions button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #cddaff;
+  background: #f7f9ff;
+  color: #102a52;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .actions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,116 @@
+.account-wrapper {
+  max-width: 1020px;
+  margin: 34px auto;
+  padding: 0 18px 30px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.account-wrapper h2 {
+  margin: 12px 0 18px;
+  color: #1c3262;
+}
+
+.account-type-switch {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.account-type-btn {
+  border: 1px solid #c6d7ff;
+  background: #ffffff;
+  color: #143061;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.account-type-btn.active {
+  background: linear-gradient(130deg, #2d4fbd 0%, #2f7de6 100%);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.account-details-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 18px;
+  border: 1px solid #d8e5ff;
+  box-shadow: 0 16px 30px rgba(30, 64, 175, 0.15);
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.details-row span {
+  color: #5b6b8b;
+}
+
+.details-row strong {
+  color: #142b57;
+}
+
+.balance-box {
+  margin-top: 18px;
+  padding: 22px;
+  border-radius: 14px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(140deg, #0f4bad 0%, #276ddf 50%, #742dde 100%);
+}
+
+.balance-box h1 {
+  margin: 8px 0 0;
+  font-size: 30px;
+}
+
+.status.active {
+  color: #059669;
+}
+
+.status.dormant {
+  color: #b91c1c;
+}
+
+.account-error {
+  color: #b91c1c;
+  margin-bottom: 12px;
+}
+
+.open-transactions-link {
+  display: inline-block;
+  margin-top: 16px;
+  color: #15356d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.open-transactions-link:hover {
+  text-decoration: underline;
+}
+
+.account-history-preview {
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid #e3ebff;
+}
+
+.account-history-preview ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.account-history-preview li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #edf2ff;
+  font-size: 14px;
+}
